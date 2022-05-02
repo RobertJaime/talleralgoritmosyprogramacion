@@ -1,0 +1,12 @@
+suma=0
+c=0
+k=1
+while(0<k<1000):
+    if(suma<=1000):
+        suma=suma+((k**2)+1)/k
+        if(suma<=1000):
+            c=c+1   
+            k=k+1  
+    else:
+        break
+    print(c)
